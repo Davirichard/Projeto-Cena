@@ -24,16 +24,16 @@ html,body{
 /******/
 
 header{
-	background-color:rgb(220,220,220);
-	padding:10px 2% 25px 2%;
+	background-color:#e1cec2;
+	padding:0 2% 25px 2%;
 }
 
 .logo-1{
 	float: left;
-	width: 150px;
-	height: 60px;
-	background-image: url('../imagens/logo1.png');
-	background-size: 100% auto;
+	width: 230px;
+	height: 150px;
+	background-image: url('../imagens/DevInteriors.png');
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	/*background-color: purple;*/
@@ -78,9 +78,9 @@ section.cover-form{
 .form-container h2{
 	font-weight: normal;
 	padding:25px 15px;
-	color: black;
+	color: white;
 	font-size: 18px;
-	background-color: rgb(210,210,210);
+	background-color: #cfa9a6;
 }
 
 .form-container form{
@@ -110,7 +110,7 @@ section.cover-form{
 }
 
 .form-container form input[type=submit]{
-	background-color: #033C50;
+	background-color:#e1cec2;
 	text-transform: uppercase;
 	color: white;
 	width: 100%;
@@ -144,7 +144,7 @@ section.chamada{
 }
 
 section.chamada div.container{
-	background-color: #29526d;
+	background-color: #cfa9a6;
 	padding:70px 0 50px 0;
 }
 
@@ -169,34 +169,124 @@ section.chamada p{
 	font-weight: normal;
 }
 
-.flex-mosaico{
+.boxflex{
 	display: flex;
 }
 
-.item-1-mosaico{
+.img-1{
+	background-image: url(../imagens/mosaico/mosaico1.jpg);
 	background-position: center;
 	background-size: cover;
 	width: 60%;
+	background-repeat: no-repeat;
 }
 
-.item-2-mosaico{
-	background-color: #4683AB;
+.img-3{
+	background-image: url(../imagens/mosaico/mosaico3.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	background-repeat: no-repeat;
+}
+
+.img-5{
+	background-image: url(../imagens/mosaico/mosaico5.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	background-repeat: no-repeat;
+}
+
+.img-7{
+	background-image: url(../imagens/mosaico/mosaico7.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	background-repeat: no-repeat;
+}
+
+.img-9{
+	background-image: url(../imagens/mosaico/mosaico9.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	background-repeat: no-repeat;
+}
+
+
+.box-description{
+	background-color: #e1cec2;
 	padding:90px 40px;
 	width: 40%;
 }
 
-.item-2-mosaico p{
+.box-description p{
+	color: white;
+}
+
+.flex-invert{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.img-2{
+	background-image: url(../imagens/mosaico/mosaico2.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	background-repeat: no-repeat;
+}
+
+.img-4{
+	background-image: url(../imagens/mosaico/mosaico4.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	background-repeat: no-repeat;
+}
+
+.img-6{
+	background-image: url(../imagens/mosaico/mosaico6.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	background-repeat: no-repeat;
+}
+
+.img-8{
+	background-image: url(../imagens/mosaico/mosaico8.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	background-repeat: no-repeat;
+}
+
+.img-10{
+	background-image: url(../imagens/mosaico/mosaico10.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	background-repeat: no-repeat;
+}
+
+.description-invert{
+	background-color: #cfbdb1;
+	padding:90px 40px;
+	width: 40%;
+}
+
+.description-invert p{
 	color: white;
 }
 
 footer .container{
 	text-align: center;
 	padding:20px 0;
-	background-color:rgb(220,220,220);
+	background-color:#EDC4C0;
 }
 
-footer img{
-	width: 130px;
+footer P{
+	color: white;
 }
 
 
@@ -220,16 +310,72 @@ footer img{
 
 @media screen and (max-width: 768px){
 
-	.flex-mosaico{
-		display: block;
+	.boxflex{
+		display: flex;
+		flex-direction: column;
 	}
 
-	.item-1-mosaico{
+	.img-1{
 		padding-top:80%;
 		width: 100%;
 	}
 
-	.item-2-mosaico{
+	.img-3{
+		padding-top:80%;
+		width: 100%;
+	}
+
+	.img-5{
+		padding-top:80%;
+		width: 100%;
+	}
+
+	.img-7{
+		padding-top:80%;
+		width: 100%;
+	}
+
+	.img-9{
+		padding-top:80%;
+		width: 100%;
+	}
+
+	.box-description{
+		text-align: justify;
+		width: 100%;
+	}
+
+	.flex-invert{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.img-2{
+		padding-top:80%;
+		width: 100%;
+	}
+
+	.img-4{
+		padding-top:80%;
+		width: 100%;
+	}
+
+	.img-6{
+		padding-top:80%;
+		width: 100%;
+	}
+
+	.img-8{
+		padding-top:80%;
+		width: 100%;
+	}
+
+	.img-10{
+		padding-top:80%;
+		width: 100%;
+	}
+
+	.description-invert{
 		text-align: justify;
 		width: 100%;
 	}
